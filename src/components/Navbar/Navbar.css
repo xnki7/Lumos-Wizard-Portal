@@ -1,0 +1,44 @@
+.Navbar{
+    background: #424242c6;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Navbar p{
+    margin: 0;
+}
+
+.Navbar .Left{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Navbar .Left img{
+    height: 60%;
+    padding-left: 2.5vw;
+}
+
+.Navbar .Right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2.5vw;
+}
+
+.Navbar .Right button{
+    color: white;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.80);
+    background: rgba(255, 255, 255, 0.10);
+    height: 5vh;
+    width: 9vw;
+}
+
+.Navbar .Right p{
+    color: white;
+    padding-right: 1.75vw;
+}
