@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import exp from "./exp.png";
 import growth from "./Group 42.png";
 import belonging from "./Belonging.png";
-import rewards from "./Belonging.png"
+import rewards from "./rewards.png"
 import { SlArrowRight, SlArrowLeft } from "react-icons/sl"
 
 const images = [exp, growth, belonging, rewards];

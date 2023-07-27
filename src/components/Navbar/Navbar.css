@@ -1,4 +1,10 @@
-.Navbar{
+.Navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.Navbar-1 {
     background: #424242c6;
     height: 10vh;
     width: 100%;
@@ -7,29 +13,29 @@
     justify-content: space-between;
 }
 
-.Navbar p{
+.Navbar-1 p {
     margin: 0;
 }
 
-.Navbar .Left{
+.Navbar-1 .Left {
     height: 100%;
     display: flex;
     align-items: center;
 }
 
-.Navbar .Left img{
+.Navbar-1 .Left img {
     height: 60%;
     padding-left: 2.5vw;
 }
 
-.Navbar .Right{
+.Navbar-1 .Right {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-right: 2.5vw;
 }
 
-.Navbar .Right button{
+.Navbar-1 .Right button {
     color: white;
     border-radius: 8px;
     border: 1px solid rgba(255, 255, 255, 0.80);
@@ -38,7 +44,14 @@
     width: 9vw;
 }
 
-.Navbar .Right p{
+.Navbar-1 .Right p {
     color: white;
     padding-right: 1.75vw;
+}
+
+.Navbar hr {
+    margin: 0;
+    height: 1px;
+    border: none;
+    background: linear-gradient(269deg, #FFFFFF00, #a1a1a1, #FFFFFF00);
 }

@@ -19,9 +19,17 @@ function LandingPage() {
           <img className="float-up-down" src={require('./wiz.png')} />
         </div>
       </div>
-      <div className="slider">
+      <div className="slider-1">
         <Slider />
       </div>
+      <hr />
+      <div className="Milestones">
+        <p className="section-head">Milestones</p>
+        <div className="MilestoneImg">
+          <img src={require('./milestone.png')} />
+        </div>
+      </div>
+      <hr />
     </div>
   )
 }
