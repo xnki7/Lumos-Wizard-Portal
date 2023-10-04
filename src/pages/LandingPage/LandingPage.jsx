@@ -3,6 +3,7 @@ import './LandingPage.css';
 import Navbar from '../../components/Navbar/Navbar';
 import Slider from '../../components/Slider/Slider';
 import FAQs from '../../components/FAQ/FAQ';
+import Milestones from '../../components/Milestones';
 
 function LandingPage() {
 	return (
@@ -30,9 +31,7 @@ function LandingPage() {
 			<hr />
 			<div className='Milestones'>
 				<p className='section-head'>Milestones</p>
-				<div className='MilestoneImg'>
-					<img src={require('./milestone.png')} />
-				</div>
+				<Milestones />
 			</div>
 			<hr />
 			<div>
